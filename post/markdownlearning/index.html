@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>简单的Markdown语法学习 | Sparkling World   -TheDai</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://TheDai-hub.github.io/favicon.ico?v=1617546428787">
+<link rel="stylesheet" href="https://TheDai-hub.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="写在前面
+Markdown语法简单来说就是以代码形式来编辑文本格式的一种语法
+既然Gridea支持Markdown，那就简单的学习一下吧
+1.标题
+在单独一行文字前加若干个#(再加个空格最标准)，定义这段文字为标题
+“#”的数量即为标题等级..." />
+    <meta name="keywords" content="Markdown" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://TheDai-hub.github.io">
+        <img src="https://TheDai-hub.github.io/images/avatar.png?v=1617546428787" class="site-logo">
+        <h1 class="site-title">Sparkling World   -TheDai</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/TheDai-hub" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+          <a class="social-link" href="https://www.zhihu.com/people/thedai-16" target="_blank">
+            <i class="fab fa-zhihu"></i>
+          </a>
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      路漫漫其修远兮,吾将上下而求索
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://TheDai-hub.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">简单的Markdown语法学习</h2>
+            <div class="post-date">2021-04-04</div>
+            
+              <div class="feature-container" style="background-image: url('https://i.loli.net/2021/04/04/DjN5GwkfEiXoLUI.jpg')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <h3 id="写在前面">写在前面</h3>
+<p>Markdown语法简单来说就是以代码形式来编辑文本格式的一种语法<br>
+既然Gridea支持Markdown，那就简单的学习一下吧</p>
+<h3 id="1标题">1.标题</h3>
+<p>在单独一行文字前加若干个#(再加个空格最标准)，定义这段文字为标题<br>
+“#”的数量即为标题等级，总共有六级</p>
+<h1 id="这是最大的一级标题">这是最大的一级标题</h1>
+<h6 id="这是最小的六级标题">这是最小的六级标题</h6>
+<h3 id="2引用">2.引用</h3>
+<p>在一段文本前加&gt;，定义为引用</p>
+<blockquote>
+<p>是不是和知乎的那个一样<br>
+可以引用多行哦~</p>
+</blockquote>
+<h3 id="3图片与连接">3.图片与连接</h3>
+<p>[这里放超链接文本] (这里放连接)</p>
+<p>![如果要插入图片的话前面就加一个！] (这里放图片连接)</p>
+<p><a href="https://dic.xflag.com/monsterstrike/character/4184">这个是我老婆</a><br>
+<a name=waifu> <a><br>
+<img src="https://i.loli.net/2021/04/04/lrq5cAIZOTg2Rsy.png" alt="老婆" loading="lazy"></p>
+<h3 id="4粗体和斜体">4.粗体和斜体</h3>
+<p>两边各两个<em>是粗体<br>
+各一个</em>是斜体</p>
+<p><strong>粗体</strong> <em>斜体</em></p>
+<h3 id="5表格和列表">5.表格和列表</h3>
+<p>表格用 | 分出列，换行分出行<br>
+用以下字符串规定行位置：<br>
+:---:以下居中，长度为字符串长度<br>
+:----左对齐，右对齐就把:放右边</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">左对齐</th>
+<th style="text-align:center">居中</th>
+<th style="text-align:right">右对齐</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">D</td>
+<td style="text-align:center">Z</td>
+<td style="text-align:right">J</td>
+</tr>
+</tbody>
+</table>
+<p>列表的话就是一个*加空格</p>
+<ul>
+<li>列表</li>
+</ul>
+<h3 id="6代码框">6.代码框</h3>
+<p>程序员最爱，两边各一个<code>包住代码 三个</code>成行上下夹住形成代码区块 ,空格加一个制表符tab也可以</p>
+<p><code>print(&quot;hello world&quot;)</code><br>
+<code>print(&quot;不同缩进颜色不一样，python狂喜&quot;)</code></p>
+<pre><code>这是一个代码区块
+</code></pre>
+<h3 id="7分割线">7.分割线</h3>
+<p>另起一行，打上***（三个以上都行）</p>
+<hr>
+<h3 id="8文本内跳转">8.文本内跳转</h3>
+<p>[这里放标题] (#这里放要跳转的命名，可以是前面命名的，也可以是某个标题)<br>
+命名就就和HTML一样，&lt;a name 等于 名字&gt;&lt;杠a&gt;</p>
+<p><a href="#waifu">再看一眼我老婆</a></p>
+<p>最后上张图<br>
+<img src="https://TheDai-hub.github.io/post-images/1617546216078.jpg" alt="" loading="lazy"></p>
+<p>差不多就这样，很简单吧？不光码博客可以用，以后写word也可以用，不用再用鼠标点来点去设置文本格式了，岂不美哉？😁</p>
+<p align=right>戴正杰 清明假期无聊作 2021.4.4</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://TheDai-hub.github.io/tag/sJSBHX7oI/" class="tag">
+                    Markdown
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://TheDai-hub.github.io/post/hello-gridea/">
+                  <h3 class="post-title">
+                    Hello Gridea
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'bdbfcfd3d0f9a54cd33c',
+        clientSecret: 'fad9b4500e1bbc932cdf9baf2627ab9787e3c7f6',
+        repo: 'thedai-hub.github.io',
+        owner: 'thedai-hub',
+        admin: ['thedai-hub'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
