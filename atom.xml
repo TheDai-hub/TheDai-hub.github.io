@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://TheDai-hub.github.io</id>
     <title>Sparkling World   -TheDai</title>
-    <updated>2021-04-04T14:27:12.893Z</updated>
+    <updated>2021-04-05T01:45:45.207Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://TheDai-hub.github.io"/>
     <link rel="self" href="https://TheDai-hub.github.io/atom.xml"/>
@@ -37,8 +37,8 @@
 <a name=waifu> <a><br>
 <img src="https://i.loli.net/2021/04/04/lrq5cAIZOTg2Rsy.png" alt="老婆" loading="lazy"></p>
 <h3 id="4粗体和斜体">4.粗体和斜体</h3>
-<p>两边各两个<em>是粗体<br>
-各一个</em>是斜体</p>
+<p>两边各两个*是粗体<br>
+各一个星号是斜体</p>
 <p><strong>粗体</strong> <em>斜体</em></p>
 <h3 id="5表格和列表">5.表格和列表</h3>
 <p>表格用 | 分出列，换行分出行<br>
@@ -66,7 +66,8 @@
 <li>列表</li>
 </ul>
 <h3 id="6代码框">6.代码框</h3>
-<p>程序员最爱，两边各一个<code>包住代码 三个</code>成行上下夹住形成代码区块 ,空格加一个制表符tab也可以</p>
+<p>程序员最爱，两边各一个 ` 包住代码<br>
+三个点成行上下夹住形成代码区块 ,空格加一个制表符tab也可以</p>
 <p><code>print(&quot;hello world&quot;)</code><br>
 <code>print(&quot;不同缩进颜色不一样，python狂喜&quot;)</code></p>
 <pre><code>这是一个代码区块
